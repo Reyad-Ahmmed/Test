@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Side Navigation</title>
+	<style>
+		*{
+			margin:0;
+			padding:0;
+			box-sizing:border-box;
+		}
+		body{
+			font-family:'Segoe UI','Tahoma','Verdana','Geneva','Calibri',sans-serif;
+		}
+		.nav{
+			width:15%;
+			height:100vh;
+			display:flex;
+			flex-direction:column;
+			justify-align:flex-start;
+			background-color:rgba(0,0,0,.5);
+		}
+		.nav-link{
+			padding:5px 10px;
+			margin:2px 0;
+			display:flex;
+			flex-direction:column;
+			justify-align:flex-start;
+			text-decoration:none;
+			color:white;
+			background-color:black;
+		}
+		.nav-link:first-child{margin-top:0;}
+		.nav-link:last-child{margin-bottom:4px;}
+		.nav-link:hover{
+			background-color:#CFAEA7;
+			color:black;
+			font-weight:600;
+		}
+	</style>
+	</head>
+	<body>
+		<div class="nav">
+			<a href="#" class="nav-link">Home</a>
+			<a href="#" class="nav-link">Department</a>
+			<a href="#" class="nav-link">Employee</a>
+			<a href="#" class="nav-link">Product</a>
+			<a href="#" class="nav-link">Privacy</a>
+			<a href="#" class="nav-link">Contact Us</a>
+		</div>
+	</body>
+
+</html>
